@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 <Window x:Class="HelloWorld.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -18,3 +19,25 @@
     </StackPanel>
     
 </Window>
+=======
+﻿
+<Window x:Class="HelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloWorld"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Background="WhiteSmoke">
+
+
+    <StackPanel>
+        <TextBlock>Enter Name:</TextBlock>
+        <TextBox x:Name="uxName" Margin="5" Background="LightBlue" TextChanged="uxName_TextChanged"></TextBox>
+        <TextBlock>Enter Password:</TextBlock>
+        <TextBox x:Name="uxPassword"  Margin="5" Background="LightBlue" TextChanged="uxPassword_TextChanged"></TextBox>
+        <Button x:Name="uxSubmit" Margin="5" Content="Submit" Click="uxSubmit_Click"> </Button>
+    </StackPanel>
+    
+</Window>
+>>>>>>> 911c0c11191f37dbe807c2bbc5c1180686407004
