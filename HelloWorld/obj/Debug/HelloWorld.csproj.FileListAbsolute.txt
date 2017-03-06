@@ -12,3 +12,6 @@ C:\CSHP_220_D\HelloWorld\obj\Debug\HelloWorld.Properties.Resources.resources
 C:\CSHP_220_D\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.Cache
 C:\CSHP_220_D\HelloWorld\obj\Debug\HelloWorld.exe
 C:\CSHP_220_D\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\CHSP220_Issues\Trash\test\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\CHSP220_Issues\Trash\test\HelloWorld\obj\Debug\HelloWorld.exe
+C:\CHSP220_Issues\Trash\test\HelloWorld\obj\Debug\HelloWorld.pdb
