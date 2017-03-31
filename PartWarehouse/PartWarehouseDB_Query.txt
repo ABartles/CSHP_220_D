@@ -1,0 +1,33 @@
+
+
+/*
+========== Table Creation Query Script ==========
+*/
+
+USE PartWarehouse
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF OBJECT_ID('dbo.Part', 'U') IS NOT NULL
+  DROP TABLE dbo.Part
+GO
+
+CREATE TABLE dbo.Part
+(
+	Part_ID int IDENTITY(1,1) NOT NULL, 
+	Part_Description char(50) NOT NULL,
+	Part_UnitPrice decimal NOT NULL,
+	Part_QtyOnHand int NOT NULL,
+	Part_StockValue decimal NOT NULL, 
+	Part_AddedDate datetime NOT NULL, 
+    CONSTRAINT PK_Item_ID PRIMARY KEY CLUSTERED (Part_ID ASC) 
+	WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)ON [PRIMARY]
+)ON [PRIMARY]
+GO
+
+
+
